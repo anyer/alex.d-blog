@@ -4,9 +4,9 @@
   <subtitle>没有不晴的天，只有自弃的人!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://anyer.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2016-11-10T13:23:09.761Z</updated>
-  <id>http://anyer.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Anyer</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>微信小程序资源整理</title>
-    <link href="http://anyer.github.io/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/2016/11/10/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/"/>
-    <id>http://anyer.github.io/微信小程序/2016/11/10/微信小程序资源整理/</id>
+    <link href="http://yoursite.com/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/2016/11/10/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/"/>
+    <id>http://yoursite.com/微信小程序/2016/11/10/微信小程序资源整理/</id>
     <published>2016-11-10T13:08:43.000Z</published>
     <updated>2016-11-10T13:23:09.761Z</updated>
     
@@ -335,10 +335,10 @@
     
     </summary>
     
-      <category term="微信小程序" scheme="http://anyer.github.io/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+      <category term="微信小程序" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
     
-      <category term="微信,小程序,资源,教程" scheme="http://anyer.github.io/tags/%E5%BE%AE%E4%BF%A1-%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E8%B5%84%E6%BA%90-%E6%95%99%E7%A8%8B/"/>
+      <category term="微信,小程序,资源,教程" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1-%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E8%B5%84%E6%BA%90-%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
