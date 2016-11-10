@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Anyer&#39;s Blog</title>
   <subtitle>没有不晴的天，只有自弃的人!</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://anyer.github.io/atom.xml" rel="self"/>
   
   <link href="https://anyer.github.io/"/>
   <updated>2016-11-10T13:23:09.761Z</updated>
