@@ -6,6 +6,7 @@ categories:
 tags:
   - Windows
 description: 本文记录Windows软件默认安装路径的修改。
+abbrlink: 5e3c350
 date: 2016-09-14 12:20:24
 updated: 2016-09-14 12:20:24
 ---

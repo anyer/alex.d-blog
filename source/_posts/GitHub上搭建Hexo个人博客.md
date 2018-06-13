@@ -9,6 +9,7 @@ tags:
   - Hexo
   - GitHub
 description: 本文记录GitHub Pages搭建Hexo静态博客过程及Hexo主题优化。
+abbrlink: 9b9a6ada
 date: 2015-12-05 00:04:39
 updated: 2015-12-05 00:04:39
 ---

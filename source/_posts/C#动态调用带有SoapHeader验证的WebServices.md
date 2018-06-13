@@ -1,14 +1,15 @@
 ---
-title: C#动态调用带有SoapHeader验证的WebService
+title: 'C#动态调用带有SoapHeader验证的WebService'
 copyright: true
 categories:
-  - C#
+  - 'C#'
   - WebService
 tags:
-  - C#
+  - 'C#'
   - SoapHeader
   - WebService
-description: 本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+description: '本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。'
+abbrlink: c9ff6b6b
 date: 2017-01-16 14:28:26
 updated: 2017-01-16 14:28:26
 ---

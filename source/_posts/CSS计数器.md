@@ -6,6 +6,7 @@ categories:
 tags:
   - CSS3
 description: 本文记录CSS的计数器的属性及使用。
+abbrlink: 438c3d31
 date: 2016-07-09 16:44:51
 updated: 2016-07-09 16:44:51
 ---

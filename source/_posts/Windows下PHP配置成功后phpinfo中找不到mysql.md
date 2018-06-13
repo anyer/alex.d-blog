@@ -9,6 +9,7 @@ tags:
   - MySQL
   - Error
 description: 本文记录Windows下PHP配置成功后phpinfo中找不到MySQL情况的处理。
+abbrlink: '18049353'
 date: 2016-02-17 22:54:42
 updated: 2016-02-17 22:54:42
 ---

@@ -9,6 +9,7 @@ tags:
   - MyBatis Generator
   - Error
 description: 本文记录MyBatis Generator插件连接MySQL数据库过程中出现的错误。
+abbrlink: d4a4ba8b
 date: 2016-12-26 18:27:05
 updated: 2016-12-26 18:27:05
 ---

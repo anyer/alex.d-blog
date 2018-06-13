@@ -8,6 +8,7 @@ tags:
   - Windows
   - 脚本
 description: 本文记录Windows下添加关机脚本及系统垃圾处理脚本介绍。
+abbrlink: 59d07c0b
 date: 2017-01-16 16:32:03
 updated: 2017-01-16 16:32:03
 ---

@@ -8,6 +8,7 @@ tags:
   - cmd
   - 快捷方式
 description: 本文记录Windows下目录内打开cmd命令行窗口的快捷方式。
+abbrlink: c00e8cd4
 date: 2016-11-10 19:27:33
 updated: 2017-08-08 22:32:03
 ---

@@ -8,6 +8,7 @@ tags:
   - MySQL
   - Error
 description: 本文记录Windows下XAMPP启动时MySQL报错情况的处理。
+abbrlink: 177b1137
 date: 2016-02-15 16:55:55
 updated: 2016-02-15 16:55:55
 ---

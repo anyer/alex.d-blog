@@ -6,6 +6,7 @@ categories:
 tags:
   - Atom
 description: 右键系统存在“Open With Atom”选项，但点击无效，且不加载Atom图标
+abbrlink: b93e94bc
 date: 2017-07-03 18:01:38
 updated: 2017-07-03 18:01:38
 ---

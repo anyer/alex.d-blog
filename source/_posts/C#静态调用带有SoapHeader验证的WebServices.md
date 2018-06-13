@@ -1,14 +1,15 @@
 ---
-title: C#静态调用带有SoapHeader验证的WebService
+title: 'C#静态调用带有SoapHeader验证的WebService'
 copyright: true
 categories:
-  - C#
+  - 'C#'
   - WebService
 tags:
-  - C#
+  - 'C#'
   - SoapHeader
   - WebService
-description: 本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+description: '本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。'
+abbrlink: 96d3be06
 date: 2017-01-16 14:28:26
 updated: 2017-01-16 14:28:26
 ---
