@@ -121,5 +121,5 @@ theme: next
 deploy:
   type: git
   # repo: https://gitee.com/alex_d/Alex.D-Blog.git, master
-  repo: https://github.com/anyer/alex.d-blog.git,master
+  repo: git@github.com:anyer/alex.d-blog.git,master
 
