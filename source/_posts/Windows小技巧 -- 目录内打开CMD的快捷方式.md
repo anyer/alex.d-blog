@@ -10,7 +10,7 @@ tags:
 description: 本文记录Windows下目录内打开cmd命令行窗口的快捷方式。
 abbrlink: c00e8cd4
 date: 2016-11-10 19:27:33
-updated: 2017-08-08 22:32:03
+updated: 2018-06-13 18:32:03
 ---
 
 在工作中常常会有需要在某个文件夹内使用cmd的情况，例如运行某脚本，下面演示几种方法。
@@ -23,7 +23,7 @@ updated: 2017-08-08 22:32:03
 ----------
 
 
-### **方式一 ： 常用的cd命令**
+### **“姿势”一 ： 常用的cd命令**
 cd命令是我们平常使用比较多的方式：
  1. `Win+R`打开cmd窗口，默认显示如下（非管理员模式）；
  
@@ -47,7 +47,7 @@ cd命令是我们平常使用比较多的方式：
 ----------
 
 
-### **方式二 ： 鼠标右键的快捷方式**
+### **“姿势”二 ： 鼠标右键的快捷方式**
 显然经历了上面的多个命令，是不是感觉很忧桑，下面来个快捷点的方式：
  1.`Win+E`资源管理器快速进入指定目录；
  
@@ -141,7 +141,7 @@ Windows Registry Editor Version 5.00
 
 ----------
 
-### **方式三：资源管理器（2017-08-08 增）**
+### **“姿势”三：资源管理器（2017-08-08 增）**
 在资源管理器的地址栏内输入`cmd` 或 `powershell` 回车后，依旧可以实现在当前目录快速打开命令行窗口:
  - 进入指定目录
  
@@ -158,7 +158,7 @@ Windows Registry Editor Version 5.00
 
 ----------
 
-### **方式四 : git命令行**
+### **“姿势”四 : git命令行**
 此方式使用git的用户，安装git时确定安装git bash命令行，以确保可以在命令行里完成git操作~。windows下安装git教程自行百度了。安装好后，在需要使用cmd的目录中，使用git bash来替代使用。
 1.资源管理器进入指定目录；
 2.`鼠标右键`，菜单项中选择`Git Bash Here`项目；
@@ -169,160 +169,47 @@ Windows Registry Editor Version 5.00
 
 3.进行操作；
 
+---
+
+### **“姿势”五：快捷方式（2018-06-13 增）**
+偶然间发现了这个有趣的操作，虽然不是直接在目录内启动，但也是另辟蹊径的“玩法”了~~
+
+1. 首先创建快捷方式
+	
+	![create_shortcat_1][1]
+	
+2. 选择一个目录（这里选择Python2的目录）
+
+![create_shortcat_2][2]
+
+3. 给快捷方式起个名字
+
+![enter description here][3]
+
+4. 创建完成后，修改快捷方式属性
+
+![create_shortcat_4][4]
+
+![update_path_1][5]
+
+将快捷方式创建指定的的目录，改为起始位置，快捷方式的目标地址修改为cmd的路径，如下：
+
+![update_path_2][6]
+
+5. 配置完成，即可以通过快捷方式，快速在目录内打开cmd。。
+
+![finish][7]
+
+> **注意：** 在创建快捷方式时，可以直接在目标内输入`cmd`, 即直接创建了cmd的快捷方式，后续再添加 `起始位置` 为自己想要cmd运行的目录
+
+
 其他方式，后续了解后补充~
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  [1]: http://p9uy5dyvc.bkt.clouddn.com/create_shortcat_1.png "create_shortcat_1.png"
+  [2]: http://p9uy5dyvc.bkt.clouddn.com/create_shortcat_2.png "create_shortcat_2.png"
+  [3]: http://p9uy5dyvc.bkt.clouddn.com/create_shortcat_3.png "create_shortcat_3.png"
+  [4]: http://p9uy5dyvc.bkt.clouddn.com/create_shortcat_4.png "create_shortcat_4.png"
+  [5]: http://p9uy5dyvc.bkt.clouddn.com/update_path_1.png "update_path_1.png"
+  [6]: http://p9uy5dyvc.bkt.clouddn.com/update_path_2.png "update_path_2.png"
+  [7]: http://p9uy5dyvc.bkt.clouddn.com/finish.png "finish.png"

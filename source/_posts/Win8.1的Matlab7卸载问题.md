@@ -8,6 +8,7 @@ tags:
   - Matlab
   - Error
 description: 本文记录Win8.1的Matlab7卸载时报错问题。
+abbrlink: '4869e41'
 date: 2015-07-03 11:30:26
 updated: 2015-07-03 11:30:26
 ---
