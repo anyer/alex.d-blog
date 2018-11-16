@@ -285,15 +285,15 @@
   </entry>
   
   <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
-    <id>http://yoursite.com/posts/c9ff6b6b/</id>
+    <title>C#静态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/96d3be06/"/>
+    <id>http://yoursite.com/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
     
     </summary>
     
@@ -311,15 +311,15 @@
   </entry>
   
   <entry>
-    <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/96d3be06/"/>
-    <id>http://yoursite.com/posts/96d3be06/</id>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
+    <id>http://yoursite.com/posts/c9ff6b6b/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
     
     </summary>
     
@@ -439,7 +439,7 @@
     <link href="http://yoursite.com/posts/e009e4bc/"/>
     <id>http://yoursite.com/posts/e009e4bc/</id>
     <published>2016-09-15T07:51:28.000Z</published>
-    <updated>2018-10-11T02:01:14.785Z</updated>
+    <updated>2018-11-16T06:19:32.571Z</updated>
     
     <summary type="html">
     
