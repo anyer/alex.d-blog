@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-20T12:07:41.636Z</updated>
+  <updated>2018-11-20T12:14:12.483Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/posts/ca0ce790/"/>
     <id>http://yoursite.com/posts/ca0ce790/</id>
     <published>2018-11-20T08:05:28.000Z</published>
-    <updated>2018-11-20T12:07:41.636Z</updated>
+    <updated>2018-11-20T12:14:12.483Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,28 @@
       <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
     
       <category term="wifi" scheme="http://yoursite.com/tags/wifi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/posts/0/"/>
+    <id>http://yoursite.com/posts/0/</id>
+    <published>2018-11-16T04:14:36.280Z</published>
+    <updated>2018-11-29T08:52:39.689Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;&lt;strong&gt;问题描述&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;在Windows 10 64位系统下，&lt;a
+        
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -58,11 +80,11 @@
       <category term="Jenkins" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/Jenkins/"/>
     
     
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
       <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
     
       <category term="Jenkins" scheme="http://yoursite.com/tags/Jenkins/"/>
-    
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
     
       <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -88,9 +110,9 @@
       <category term="SonarQube" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
-    
       <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
     
       <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -120,9 +142,9 @@
       <category term="SonarQube" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
-    
       <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
     
       <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -195,28 +217,6 @@
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
       <category term="error" scheme="http://yoursite.com/tags/error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免安装版MySQL安装完成后登陆1045错误处理</title>
-    <link href="http://yoursite.com/posts/af835572/"/>
-    <id>http://yoursite.com/posts/af835572/</id>
-    <published>2018-06-06T15:45:57.000Z</published>
-    <updated>2018-06-06T15:45:57.000Z</updated>
-    
-    <summary type="html">
-    
-      免安装版MySQL配置时，忘记密码，连接登陆时提示1045错误
-    
-    </summary>
-    
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
-    
-      <category term="安装部署" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
-    
-    
-      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
     
   </entry>
   

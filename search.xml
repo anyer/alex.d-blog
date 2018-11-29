@@ -13,6 +13,11 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>%2Falex.d-blog%2Fposts%2F0%2F</url>
+    <content type="text"><![CDATA[问题描述在Windows 10 64位系统下，免安装MySQL启动3534错误处理 解决后，因安装时未配置密码，则按照网上教程在my.ini配置文件内的[mysqld]项下添加skip_grant_tables，控制台使用命令mysql -u root -p，进入mysql命令行（参考文章 详见），然而并未像参考文章内描述的那样解决问题，控制台出现如下错误： 问题处理尝试了很多教程均不可以，最后考虑是否是mysqld --initialize命令导致的问题，尝试查找官网的安装教程，发现该命令初始化数据库时，还会自动生成一个随机密码：然后问题就是随机生成的密码在哪里，这个可以在[官方安装教程]底部看到，明确指出生成的密码在data目录下的错误日志里:按说明到data目录下，可以看到类似下面的错误日志：在错误日志内可以查看到对应生成的随机密码： 使用该密码，正常进入mysql命令行模式，之后就可以尝试使用更新语句来更新root账号密码 12mysql&gt; ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password'; 问题总结在之前配置时出现3534错误，通过mysqld --initialize命令来完成初始化，会对应生成随机密码，并会标记&#39;root&#39;@&#39;localhost&#39;帐户密码过期，然后在错误日志显示输出随机密码。使用该随机密码，即可以登录mysql命令行模式，然后修改root密码，至此，才算配置完成。 通过官网配置教程，发现还有另外一个命令mysqld --initialize-insecure，使用该命令初始化数据库时，不会生成随机密码，而是直接标记&#39;root&#39;@&#39;localhost&#39;帐户密码过期，在错误日志内输出类似如下的提示信息： 1[Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option. 官方对于两个命令的说明如下：使用mysqld --initialize-insecure命令初始化数据库后，启动服务，直接通过命令mysql -u root -p（提示输入密码时直接回车）即可进入mysql命令行模式。 注意： 数据库配置文件my.ini不需要配置skip_grant_tables! 参考 官网免安装配置教程 mysqld --initialize命令官网说明 mysqld --initialize-insecure命令官网说明 MySQL-深入分析MySQL ERROR 1045出现的原因]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Windows下SonarQube与Jenkins环境的配置使用]]></title>
     <url>%2Falex.d-blog%2Fposts%2F1d88c15e%2F</url>
     <content type="text"><![CDATA[Windows下SonarQube与Jenkins环境的配置使用首先放个SonarQube官方持续化集成测试环境架构图 图中展示了SonarQube自动化环境的整合，前文根据SonarQube官方的架构图，搭建了SonarQube的代码检测分析环境，本文则在此基础上，记录Jenkins与SonarQube环境整合配置使用。 Jenkins环境配置Jenkins安装Jenkins需要Java环境支持，所以首先需要安装Java环境（此处不赘述），Jenkins官方文档Java环境要求详情 更多Jenkins安装及环境要求，见官方Guided文档 。 安装好Java配置后（本文使用JDK1.8.0_152），官网下载对应系统的Jenkins安装包（本文使用Jenkins 2.121.3 LTS版本），下载完成后，解压安装，按需要配置安装目录，然后一路next即可。 安装完成后，会弹出Jenkins的初始化配置的界面，如下 Jenkins自动生成了一个管理员密码，存放在 D:\Program Files (x86)\Jenkins\secrets 下的 initialAdminPassword 文件中，(忘记密码处理方法，可以参看此文)。后续插件安装使用默认安装即可。 注意：安装插件过程中，出现失败，可以多次尝试安装，依旧不成功，可以跳过，等待后续进入管理配置界面更换数据源或下载插件离线包进行尝试，具体操作参考此文。 Jenkins中JDK配置 Jenkins中SonarQube Scanner插件安装配置插件安装，依次点击 系统管理 -&gt; 插件管理 -&gt; 可选插件，搜索 SonarQube Scanner 点击安装，安装完成后，重启Jenkins。 进行SonarQube Server配置前，登陆 SonarQube 服务，生成一个Token （在 配置 -&gt; 权限 -&gt; 用户 -&gt; 令牌 内进行生成），用于Jenkins的SonarQube Scanner插件使用。 依次点击 系统管理 -&gt; 系统设置 ，找到 SonarQube servers 项，点击 Add SonarQube 然后进行如下配置 在 系统管理 -&gt; 全局工具配置 中配置本地 SonarQube Scanner Jenkins构建任务使用命令行实现SonarQube Scanner的代码检测分析 此处通过Jenkins实现前文 （Windows下配置SonarQube Scanner检测分析代码 ）SonarQube Scanner检查代码的操作。用来简单了解SonarQube和Jenkins的配置使用。 按以上步骤，配置好Jenkins环境后，此处新建一个Jenkins构建任务 到此一个简单的，执行Windows 批处理命令的构建任务创建完成，点击保存后，返回Jenkins主界面，点击执行任务即可开始执行此构建任务 查看任务更多内容，可以点击任务名称，进入任务管理界面 查看构建时信息，可以点击构建历史内的链接，到构建历史的查看界面，然后选择查看方式等操作 到此，就通过Jenkins构建任务，执行了 sonar-scanner 的命令，完成对代码的检测分析。 在此基础上，还可以实现类似前文 （Windows下配置SonarQube Scanner检测分析代码 ）中使用Maven的 mvn sonar:sonar 命令，完成对项目的检测分析（需要首先在Jenkins的 系统管理 -&gt; 全局工具配置 中添加本地Maven地址，参考上文添加JDK操作），修改构建命令行命令如下： 构建任务执行完，且查看命令行日志显示成功后，可以登录 SonarQube Server 查看分析结果。]]></content>
@@ -22,9 +27,9 @@
         <category>Jenkins</category>
       </categories>
       <tags>
+        <tag>Windows</tag>
         <tag>SonarQube</tag>
         <tag>Jenkins</tag>
-        <tag>Windows</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
       </tags>
@@ -38,8 +43,8 @@
         <category>SonarQube</category>
       </categories>
       <tags>
-        <tag>SonarQube</tag>
         <tag>Windows</tag>
+        <tag>SonarQube</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
         <tag>SonarQube Sanner</tag>
@@ -55,8 +60,8 @@
         <category>SonarQube</category>
       </categories>
       <tags>
-        <tag>SonarQube</tag>
         <tag>Windows</tag>
+        <tag>SonarQube</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
       </tags>
@@ -96,18 +101,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>error</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[免安装版MySQL安装完成后登陆1045错误处理]]></title>
-    <url>%2Falex.d-blog%2Fposts%2Faf835572%2F</url>
-    <content type="text"><![CDATA[问题描述在Windows 10 64位系统下，免安装MySQL启动3534错误处理解决后，因安装时未配置密码，则按照网上教程在my.ini配置文件内的[mysqld]项下添加skip_grant_tables，控制台使用命令mysql -u root -p，进入mysql命令行（参考文章详见），然而并未像参考文章内描述的那样解决问题，控制台出现如下错误： 问题处理尝试了很多教程均不可以，最后考虑是否是mysqld --initialize命令导致的问题，尝试查找官网的安装教程，发现该命令初始化数据库时，还会自动生成一个随机密码： 然后问题就是随机生成的密码在哪里，这个可以在[官方安装教程]底部看到，明确指出生成的密码在data目录下的错误日志里: 按说明到data目录下，可以看到类似下面的错误日志： 在错误日志内可以查看到对应生成的随机密码： 使用该密码，正常进入mysql命令行模式，之后就可以尝试使用更新语句来更新root账号密码 12mysql&gt; ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;new_password&apos;; 问题总结在之前配置时出现3534错误，通过mysqld --initialize命令来完成初始化，会对应生成随机密码，并会标记&#39;root&#39;@&#39;localhost&#39;帐户密码过期，然后在错误日志显示输出随机密码。使用该随机密码，即可以登录mysql命令行模式，然后修改root密码，至此，才算配置完成。 通过官网配置教程，发现还有另外一个命令mysqld --initialize-insecure，使用该命令初始化数据库时，不会生成随机密码，而是直接标记&#39;root&#39;@&#39;localhost&#39;帐户密码过期，在错误日志内输出类似如下的提示信息： 1[Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option. 官方对于两个命令的说明如下： 使用mysqld --initialize-insecure命令初始化数据库后，启动服务，直接通过命令mysql -u root -p（提示输入密码时直接回车）即可进入mysql命令行模式。 注意： 数据库配置文件my.ini不需要配置skip_grant_tables! 参考 官网免安装配置教程 mysqld --initialize命令官网说明 mysqld --initialize-insecure命令官网说明 MySQL-深入分析MySQL ERROR 1045出现的原因]]></content>
-      <categories>
-        <category>问题处理</category>
-        <category>安装部署</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -270,9 +263,9 @@
       </categories>
       <tags>
         <tag>MySQL</tag>
-        <tag>PHP</tag>
         <tag>Windows</tag>
         <tag>Apache</tag>
+        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
