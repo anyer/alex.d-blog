@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-29T08:53:27.505Z</updated>
+  <updated>2018-12-05T05:30:58.028Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows小技巧 -- chrome下页面保存的多种姿势</title>
+    <link href="http://yoursite.com/posts/62e02099/"/>
+    <id>http://yoursite.com/posts/62e02099/</id>
+    <published>2018-12-05T05:28:00.000Z</published>
+    <updated>2018-12-05T05:30:58.028Z</updated>
+    
+    <summary type="html">
+    
+      本文主要以百度首页为例，记录Chrome浏览器中，保存页面的多种方式（涉及一些Chrome的“小技巧”），涉及插件使用请自行尝试，本文仅对不使用插件的情况下保存页面的不同处理方法做简单介绍。
+    
+    </summary>
+    
+      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows小技巧 -- 已连接wifi密码查看</title>
@@ -62,11 +84,11 @@
     
       <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
     
-      <category term="Jenkins" scheme="http://yoursite.com/tags/Jenkins/"/>
-    
       <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
       <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="Jenkins" scheme="http://yoursite.com/tags/Jenkins/"/>
     
   </entry>
   
@@ -92,13 +114,13 @@
     
       <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
     
-      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
-    
-      <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
-    
       <category term="SonarQube Sanner" scheme="http://yoursite.com/tags/SonarQube-Sanner/"/>
     
       <category term="Maven" scheme="http://yoursite.com/tags/Maven/"/>
+    
+      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+    
+      <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
@@ -475,26 +497,6 @@
       <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
     
       <category term="效率" scheme="http://yoursite.com/tags/%E6%95%88%E7%8E%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows小技巧 - 修改软件默认安装目录</title>
-    <link href="http://yoursite.com/posts/5e3c350/"/>
-    <id>http://yoursite.com/posts/5e3c350/</id>
-    <published>2016-09-14T04:20:24.000Z</published>
-    <updated>2016-09-14T04:20:24.000Z</updated>
-    
-    <summary type="html">
-    
-      本文记录Windows软件默认安装路径的修改。
-    
-    </summary>
-    
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
     
   </entry>
   
