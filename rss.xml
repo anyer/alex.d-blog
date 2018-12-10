@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-05T05:30:58.028Z</updated>
+  <updated>2018-12-10T01:41:54.731Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python学习笔记 - 函数式编程之高阶函数</title>
+    <link href="http://yoursite.com/posts/736330a0/"/>
+    <id>http://yoursite.com/posts/736330a0/</id>
+    <published>2018-12-06T02:54:57.000Z</published>
+    <updated>2018-12-10T01:41:54.731Z</updated>
+    
+    <summary type="html">
+    
+      简单记录学习Python中，对于函数编程及高级函数、闭包等内容。
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+      <category term="函数式编程" scheme="http://yoursite.com/categories/Python/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="函数式编程" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="高阶函数" scheme="http://yoursite.com/tags/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/"/>
+    
+      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Windows小技巧 -- chrome下页面保存的多种姿势</title>
     <link href="http://yoursite.com/posts/62e02099/"/>
     <id>http://yoursite.com/posts/62e02099/</id>
     <published>2018-12-05T05:28:00.000Z</published>
-    <updated>2018-12-05T05:30:58.028Z</updated>
+    <updated>2018-12-05T05:32:16.683Z</updated>
     
     <summary type="html">
     
@@ -475,28 +503,6 @@
       <category term="小程序" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
       <category term="资源" scheme="http://yoursite.com/tags/%E8%B5%84%E6%BA%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows小技巧 -- Win+R提高Windows使用效率</title>
-    <link href="http://yoursite.com/posts/e009e4bc/"/>
-    <id>http://yoursite.com/posts/e009e4bc/</id>
-    <published>2016-09-15T07:51:28.000Z</published>
-    <updated>2018-11-16T09:26:55.145Z</updated>
-    
-    <summary type="html">
-    
-      本文记录Windows下Win+R快捷键提高Windows使用效率的方法总结。
-    
-    </summary>
-    
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
-    
-      <category term="效率" scheme="http://yoursite.com/tags/%E6%95%88%E7%8E%87/"/>
     
   </entry>
   
