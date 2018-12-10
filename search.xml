@@ -51,9 +51,9 @@
       <tags>
         <tag>Windows</tag>
         <tag>SonarQube</tag>
+        <tag>Jenkins</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
-        <tag>Jenkins</tag>
       </tags>
   </entry>
   <entry>
@@ -67,10 +67,10 @@
       <tags>
         <tag>Windows</tag>
         <tag>SonarQube</tag>
-        <tag>SonarQube Sanner</tag>
-        <tag>Maven</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
+        <tag>SonarQube Sanner</tag>
+        <tag>Maven</tag>
       </tags>
   </entry>
   <entry>
@@ -361,8 +361,8 @@
         <category>安装部署</category>
       </categories>
       <tags>
-        <tag>Node.js</tag>
         <tag>Hexo</tag>
+        <tag>Node.js</tag>
         <tag>GitHub</tag>
       </tags>
   </entry>
