@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-10T08:27:25.975Z</updated>
+  <updated>2018-12-12T07:40:47.428Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Selenium Webdriver之Chrome浏览器操作小记</title>
+    <link href="http://yoursite.com/posts/6b28b742/"/>
+    <id>http://yoursite.com/posts/6b28b742/</id>
+    <published>2018-12-11T12:50:31.000Z</published>
+    <updated>2018-12-12T07:40:47.428Z</updated>
+    
+    <summary type="html">
+    
+      简单记录在 `Windows 10`、`Python 2.7.15`、`Selenium 3.14.1`、`Chrome 71.0.3578.80 `环境下，Selenium webdriver API 驱动 Chrome 浏览器操作的过程。
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+      <category term="Selenium" scheme="http://yoursite.com/categories/Python/Selenium/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="Selenium" scheme="http://yoursite.com/tags/Selenium/"/>
+    
+      <category term="Webdriver" scheme="http://yoursite.com/tags/Webdriver/"/>
+    
+      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python学习笔记 - 函数式编程之高阶函数</title>
     <link href="http://yoursite.com/posts/736330a0/"/>
     <id>http://yoursite.com/posts/736330a0/</id>
     <published>2018-12-06T02:54:57.000Z</published>
-    <updated>2018-12-10T08:27:25.975Z</updated>
+    <updated>2018-12-10T08:28:05.866Z</updated>
     
     <summary type="html">
     
@@ -60,9 +88,9 @@
       <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
-    
       <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+    
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
     
   </entry>
   
@@ -357,15 +385,15 @@
   </entry>
   
   <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
-    <id>http://yoursite.com/posts/c9ff6b6b/</id>
+    <title>C#静态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/96d3be06/"/>
+    <id>http://yoursite.com/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
     
     </summary>
     
@@ -383,15 +411,15 @@
   </entry>
   
   <entry>
-    <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/96d3be06/"/>
-    <id>http://yoursite.com/posts/96d3be06/</id>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
+    <id>http://yoursite.com/posts/c9ff6b6b/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
     
     </summary>
     
@@ -477,32 +505,6 @@
       <category term="cmd" scheme="http://yoursite.com/tags/cmd/"/>
     
       <category term="快捷方式" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信小程序资源整理</title>
-    <link href="http://yoursite.com/posts/763e972d/"/>
-    <id>http://yoursite.com/posts/763e972d/</id>
-    <published>2016-11-10T07:48:40.000Z</published>
-    <updated>2016-11-14T14:52:03.000Z</updated>
-    
-    <summary type="html">
-    
-      本文记录微信小程序相关资源。
-    
-    </summary>
-    
-      <category term="微信" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1/"/>
-    
-      <category term="小程序" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-      <category term="微信" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
-      <category term="小程序" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-      <category term="资源" scheme="http://yoursite.com/tags/%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
