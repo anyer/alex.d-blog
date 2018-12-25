@@ -3,11 +3,11 @@
   <title>Alex.D&#39;s Bolg</title>
   
   <subtitle>Don&#39;t trouble trouble until trouble troubles you.</subtitle>
-  <link href="/alex.d-blog/rss.xml" rel="self"/>
+  <link href="/rss.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://anyer.github.io/"/>
   <updated>2018-12-12T08:41:27.425Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://anyer.github.io/</id>
   
   <author>
     <name>Alex.D</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Selenium Webdriver之Chrome浏览器操作小记</title>
-    <link href="http://yoursite.com/posts/6b28b742/"/>
-    <id>http://yoursite.com/posts/6b28b742/</id>
+    <link href="https://anyer.github.io/posts/6b28b742/"/>
+    <id>https://anyer.github.io/posts/6b28b742/</id>
     <published>2018-12-11T12:50:31.000Z</published>
     <updated>2018-12-12T08:41:27.425Z</updated>
     
@@ -29,25 +29,25 @@
     
     </summary>
     
-      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+      <category term="Python" scheme="https://anyer.github.io/categories/Python/"/>
     
-      <category term="Selenium" scheme="http://yoursite.com/categories/Python/Selenium/"/>
+      <category term="Selenium" scheme="https://anyer.github.io/categories/Python/Selenium/"/>
     
     
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+      <category term="Python" scheme="https://anyer.github.io/tags/Python/"/>
     
-      <category term="Selenium" scheme="http://yoursite.com/tags/Selenium/"/>
+      <category term="Selenium" scheme="https://anyer.github.io/tags/Selenium/"/>
     
-      <category term="Webdriver" scheme="http://yoursite.com/tags/Webdriver/"/>
+      <category term="Webdriver" scheme="https://anyer.github.io/tags/Webdriver/"/>
     
-      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+      <category term="Chrome" scheme="https://anyer.github.io/tags/Chrome/"/>
     
   </entry>
   
   <entry>
     <title>Python学习笔记 - 函数式编程之高阶函数</title>
-    <link href="http://yoursite.com/posts/736330a0/"/>
-    <id>http://yoursite.com/posts/736330a0/</id>
+    <link href="https://anyer.github.io/posts/736330a0/"/>
+    <id>https://anyer.github.io/posts/736330a0/</id>
     <published>2018-12-06T02:54:57.000Z</published>
     <updated>2018-12-10T08:28:05.866Z</updated>
     
@@ -57,25 +57,25 @@
     
     </summary>
     
-      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+      <category term="Python" scheme="https://anyer.github.io/categories/Python/"/>
     
-      <category term="函数式编程" scheme="http://yoursite.com/categories/Python/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+      <category term="函数式编程" scheme="https://anyer.github.io/categories/Python/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+      <category term="Python" scheme="https://anyer.github.io/tags/Python/"/>
     
-      <category term="函数式编程" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+      <category term="函数式编程" scheme="https://anyer.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="高阶函数" scheme="http://yoursite.com/tags/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/"/>
+      <category term="高阶函数" scheme="https://anyer.github.io/tags/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/"/>
     
-      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
+      <category term="闭包" scheme="https://anyer.github.io/tags/%E9%97%AD%E5%8C%85/"/>
     
   </entry>
   
   <entry>
     <title>Windows小技巧 -- chrome下页面保存的多种姿势</title>
-    <link href="http://yoursite.com/posts/62e02099/"/>
-    <id>http://yoursite.com/posts/62e02099/</id>
+    <link href="https://anyer.github.io/posts/62e02099/"/>
+    <id>https://anyer.github.io/posts/62e02099/</id>
     <published>2018-12-05T05:28:00.000Z</published>
     <updated>2018-12-05T05:32:16.683Z</updated>
     
@@ -85,19 +85,19 @@
     
     </summary>
     
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Chrome" scheme="https://anyer.github.io/tags/Chrome/"/>
     
-      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>Windows小技巧 -- 已连接wifi密码查看</title>
-    <link href="http://yoursite.com/posts/ca0ce790/"/>
-    <id>http://yoursite.com/posts/ca0ce790/</id>
+    <link href="https://anyer.github.io/posts/ca0ce790/"/>
+    <id>https://anyer.github.io/posts/ca0ce790/</id>
     <published>2018-11-20T08:05:28.000Z</published>
     <updated>2018-11-29T08:53:27.505Z</updated>
     
@@ -107,19 +107,19 @@
     
     </summary>
     
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="wifi" scheme="http://yoursite.com/tags/wifi/"/>
+      <category term="wifi" scheme="https://anyer.github.io/tags/wifi/"/>
     
   </entry>
   
   <entry>
     <title>Windows下SonarQube与Jenkins环境的配置使用</title>
-    <link href="http://yoursite.com/posts/1d88c15e/"/>
-    <id>http://yoursite.com/posts/1d88c15e/</id>
+    <link href="https://anyer.github.io/posts/1d88c15e/"/>
+    <id>https://anyer.github.io/posts/1d88c15e/</id>
     <published>2018-09-12T13:57:42.000Z</published>
     <updated>2018-09-12T13:57:42.000Z</updated>
     
@@ -129,29 +129,29 @@
     
     </summary>
     
-      <category term="代码质量" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
-      <category term="Jenkins" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/Jenkins/"/>
+      <category term="Jenkins" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/Jenkins/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
-      <category term="Jenkins" scheme="http://yoursite.com/tags/Jenkins/"/>
+      <category term="Jenkins" scheme="https://anyer.github.io/tags/Jenkins/"/>
     
-      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="代码分析" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>Windows下配置SonarQube Scanner检测分析代码</title>
-    <link href="http://yoursite.com/posts/57e324c1/"/>
-    <id>http://yoursite.com/posts/57e324c1/</id>
+    <link href="https://anyer.github.io/posts/57e324c1/"/>
+    <id>https://anyer.github.io/posts/57e324c1/</id>
     <published>2018-09-08T17:54:42.000Z</published>
     <updated>2018-09-08T17:54:42.000Z</updated>
     
@@ -161,29 +161,29 @@
     
     </summary>
     
-      <category term="代码质量" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
-      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="代码分析" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
-      <category term="SonarQube Sanner" scheme="http://yoursite.com/tags/SonarQube-Sanner/"/>
+      <category term="SonarQube Sanner" scheme="https://anyer.github.io/tags/SonarQube-Sanner/"/>
     
-      <category term="Maven" scheme="http://yoursite.com/tags/Maven/"/>
+      <category term="Maven" scheme="https://anyer.github.io/tags/Maven/"/>
     
   </entry>
   
   <entry>
     <title>Windows系统配置SonarQube本地服务</title>
-    <link href="http://yoursite.com/posts/9232f8b8/"/>
-    <id>http://yoursite.com/posts/9232f8b8/</id>
+    <link href="https://anyer.github.io/posts/9232f8b8/"/>
+    <id>https://anyer.github.io/posts/9232f8b8/</id>
     <published>2018-09-08T14:54:42.000Z</published>
     <updated>2018-09-08T14:54:42.000Z</updated>
     
@@ -193,25 +193,25 @@
     
     </summary>
     
-      <category term="代码质量" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="SonarQube" scheme="http://yoursite.com/tags/SonarQube/"/>
+      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
-      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="代码分析" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="代码分析" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客快速生成</title>
-    <link href="http://yoursite.com/posts/38d24b30/"/>
-    <id>http://yoursite.com/posts/38d24b30/</id>
+    <link href="https://anyer.github.io/posts/38d24b30/"/>
+    <id>https://anyer.github.io/posts/38d24b30/</id>
     <published>2018-07-25T14:21:42.000Z</published>
     <updated>2018-07-25T14:21:42.000Z</updated>
     
@@ -221,17 +221,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://anyer.github.io/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://anyer.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>多个git托管平台同时使用时SSH Key的生成及添加</title>
-    <link href="http://yoursite.com/posts/8b4e7cd5/"/>
-    <id>http://yoursite.com/posts/8b4e7cd5/</id>
+    <link href="https://anyer.github.io/posts/8b4e7cd5/"/>
+    <id>https://anyer.github.io/posts/8b4e7cd5/</id>
     <published>2018-06-13T08:07:22.000Z</published>
     <updated>2018-06-13T08:07:22.000Z</updated>
     
@@ -241,23 +241,23 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
     
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+      <category term="Github" scheme="https://anyer.github.io/tags/Github/"/>
     
-      <category term="码云" scheme="http://yoursite.com/tags/%E7%A0%81%E4%BA%91/"/>
+      <category term="码云" scheme="https://anyer.github.io/tags/%E7%A0%81%E4%BA%91/"/>
     
-      <category term="SSH Key" scheme="http://yoursite.com/tags/SSH-Key/"/>
+      <category term="SSH Key" scheme="https://anyer.github.io/tags/SSH-Key/"/>
     
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Git" scheme="https://anyer.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Hexo执行清理命令出现警告DEP0061</title>
-    <link href="http://yoursite.com/posts/932be761/"/>
-    <id>http://yoursite.com/posts/932be761/</id>
+    <link href="https://anyer.github.io/posts/932be761/"/>
+    <id>https://anyer.github.io/posts/932be761/</id>
     <published>2018-06-12T08:02:57.000Z</published>
     <updated>2018-06-12T08:02:57.000Z</updated>
     
@@ -267,19 +267,19 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://anyer.github.io/tags/hexo/"/>
     
-      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+      <category term="error" scheme="https://anyer.github.io/tags/error/"/>
     
   </entry>
   
   <entry>
     <title>免安装版MySQL安装完成后登陆1045错误处理</title>
-    <link href="http://yoursite.com/posts/af835572/"/>
-    <id>http://yoursite.com/posts/af835572/</id>
+    <link href="https://anyer.github.io/posts/af835572/"/>
+    <id>https://anyer.github.io/posts/af835572/</id>
     <published>2018-06-06T15:45:57.000Z</published>
     <updated>2018-11-29T08:56:53.000Z</updated>
     
@@ -289,19 +289,19 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
-      <category term="安装部署" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
+      <category term="安装部署" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
     
     
-      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://anyer.github.io/tags/MySQL/"/>
     
   </entry>
   
   <entry>
     <title>免安装MySQL启动3534错误处理</title>
-    <link href="http://yoursite.com/posts/6b3d0e5e/"/>
-    <id>http://yoursite.com/posts/6b3d0e5e/</id>
+    <link href="https://anyer.github.io/posts/6b3d0e5e/"/>
+    <id>https://anyer.github.io/posts/6b3d0e5e/</id>
     <published>2018-06-05T14:02:57.000Z</published>
     <updated>2018-06-05T14:02:57.000Z</updated>
     
@@ -311,19 +311,19 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
-      <category term="安装部署" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
+      <category term="安装部署" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
     
     
-      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://anyer.github.io/tags/MySQL/"/>
     
   </entry>
   
   <entry>
     <title>去除Chrome空白页的缩略图</title>
-    <link href="http://yoursite.com/posts/4ba92470/"/>
-    <id>http://yoursite.com/posts/4ba92470/</id>
+    <link href="https://anyer.github.io/posts/4ba92470/"/>
+    <id>https://anyer.github.io/posts/4ba92470/</id>
     <published>2017-08-08T05:55:13.000Z</published>
     <updated>2018-06-16T03:13:23.000Z</updated>
     
@@ -333,17 +333,17 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
     
-      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+      <category term="Chrome" scheme="https://anyer.github.io/tags/Chrome/"/>
     
   </entry>
   
   <entry>
     <title>Open With Atom右键菜单失效</title>
-    <link href="http://yoursite.com/posts/b93e94bc/"/>
-    <id>http://yoursite.com/posts/b93e94bc/</id>
+    <link href="https://anyer.github.io/posts/b93e94bc/"/>
+    <id>https://anyer.github.io/posts/b93e94bc/</id>
     <published>2017-07-03T10:01:38.000Z</published>
     <updated>2017-07-03T10:01:38.000Z</updated>
     
@@ -353,17 +353,17 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
     
-      <category term="Atom" scheme="http://yoursite.com/tags/Atom/"/>
+      <category term="Atom" scheme="https://anyer.github.io/tags/Atom/"/>
     
   </entry>
   
   <entry>
     <title>Windows小技巧 -- 关机时清理系统垃圾</title>
-    <link href="http://yoursite.com/posts/59d07c0b/"/>
-    <id>http://yoursite.com/posts/59d07c0b/</id>
+    <link href="https://anyer.github.io/posts/59d07c0b/"/>
+    <id>https://anyer.github.io/posts/59d07c0b/</id>
     <published>2017-01-16T08:32:03.000Z</published>
     <updated>2017-01-16T08:32:03.000Z</updated>
     
@@ -373,47 +373,21 @@
     
     </summary>
     
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="Shell" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/Shell/"/>
-    
-    
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
-    
-      <category term="脚本" scheme="http://yoursite.com/tags/%E8%84%9A%E6%9C%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
-    <id>http://yoursite.com/posts/c9ff6b6b/</id>
-    <published>2017-01-16T06:28:26.000Z</published>
-    <updated>2017-01-16T06:28:26.000Z</updated>
-    
-    <summary type="html">
-    
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
-    
-    </summary>
-    
-      <category term="C#" scheme="http://yoursite.com/categories/C/"/>
-    
-      <category term="WebService" scheme="http://yoursite.com/categories/C/WebService/"/>
+      <category term="Shell" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/Shell/"/>
     
     
-      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="SoapHeader" scheme="http://yoursite.com/tags/SoapHeader/"/>
-    
-      <category term="WebService" scheme="http://yoursite.com/tags/WebService/"/>
+      <category term="脚本" scheme="https://anyer.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/96d3be06/"/>
-    <id>http://yoursite.com/posts/96d3be06/</id>
+    <link href="https://anyer.github.io/posts/96d3be06/"/>
+    <id>https://anyer.github.io/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
@@ -423,23 +397,49 @@
     
     </summary>
     
-      <category term="C#" scheme="http://yoursite.com/categories/C/"/>
+      <category term="C#" scheme="https://anyer.github.io/categories/C/"/>
     
-      <category term="WebService" scheme="http://yoursite.com/categories/C/WebService/"/>
+      <category term="WebService" scheme="https://anyer.github.io/categories/C/WebService/"/>
     
     
-      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C#" scheme="https://anyer.github.io/tags/C/"/>
     
-      <category term="SoapHeader" scheme="http://yoursite.com/tags/SoapHeader/"/>
+      <category term="SoapHeader" scheme="https://anyer.github.io/tags/SoapHeader/"/>
     
-      <category term="WebService" scheme="http://yoursite.com/tags/WebService/"/>
+      <category term="WebService" scheme="https://anyer.github.io/tags/WebService/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="https://anyer.github.io/posts/c9ff6b6b/"/>
+    <id>https://anyer.github.io/posts/c9ff6b6b/</id>
+    <published>2017-01-16T06:28:26.000Z</published>
+    <updated>2017-01-16T06:28:26.000Z</updated>
+    
+    <summary type="html">
+    
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+    
+    </summary>
+    
+      <category term="C#" scheme="https://anyer.github.io/categories/C/"/>
+    
+      <category term="WebService" scheme="https://anyer.github.io/categories/C/WebService/"/>
+    
+    
+      <category term="C#" scheme="https://anyer.github.io/tags/C/"/>
+    
+      <category term="SoapHeader" scheme="https://anyer.github.io/tags/SoapHeader/"/>
+    
+      <category term="WebService" scheme="https://anyer.github.io/tags/WebService/"/>
     
   </entry>
   
   <entry>
     <title>Windows8.1中IIS服务安装及站点配置</title>
-    <link href="http://yoursite.com/posts/291f04db/"/>
-    <id>http://yoursite.com/posts/291f04db/</id>
+    <link href="https://anyer.github.io/posts/291f04db/"/>
+    <id>https://anyer.github.io/posts/291f04db/</id>
     <published>2017-01-12T07:41:20.000Z</published>
     <updated>2017-01-12T07:41:20.000Z</updated>
     
@@ -449,19 +449,19 @@
     
     </summary>
     
-      <category term="安装部署" scheme="http://yoursite.com/categories/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
+      <category term="安装部署" scheme="https://anyer.github.io/categories/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/"/>
     
     
-      <category term="Windows 8.1" scheme="http://yoursite.com/tags/Windows-8-1/"/>
+      <category term="Windows 8.1" scheme="https://anyer.github.io/tags/Windows-8-1/"/>
     
-      <category term="IIS" scheme="http://yoursite.com/tags/IIS/"/>
+      <category term="IIS" scheme="https://anyer.github.io/tags/IIS/"/>
     
   </entry>
   
   <entry>
     <title>MyBatis Generator 异常错误记录</title>
-    <link href="http://yoursite.com/posts/d4a4ba8b/"/>
-    <id>http://yoursite.com/posts/d4a4ba8b/</id>
+    <link href="https://anyer.github.io/posts/d4a4ba8b/"/>
+    <id>https://anyer.github.io/posts/d4a4ba8b/</id>
     <published>2016-12-26T10:27:05.000Z</published>
     <updated>2016-12-26T10:27:05.000Z</updated>
     
@@ -471,23 +471,23 @@
     
     </summary>
     
-      <category term="问题处理" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
     
-      <category term="自动化构建" scheme="http://yoursite.com/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
+      <category term="自动化构建" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
     
     
-      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://anyer.github.io/tags/MySQL/"/>
     
-      <category term="MyBatis Generator" scheme="http://yoursite.com/tags/MyBatis-Generator/"/>
+      <category term="Error" scheme="https://anyer.github.io/tags/Error/"/>
     
-      <category term="Error" scheme="http://yoursite.com/tags/Error/"/>
+      <category term="MyBatis Generator" scheme="https://anyer.github.io/tags/MyBatis-Generator/"/>
     
   </entry>
   
   <entry>
     <title>Windows小技巧 -- 目录内打开CMD的快捷方式</title>
-    <link href="http://yoursite.com/posts/c00e8cd4/"/>
-    <id>http://yoursite.com/posts/c00e8cd4/</id>
+    <link href="https://anyer.github.io/posts/c00e8cd4/"/>
+    <id>https://anyer.github.io/posts/c00e8cd4/</id>
     <published>2016-11-10T11:27:33.000Z</published>
     <updated>2018-06-13T10:32:03.000Z</updated>
     
@@ -497,14 +497,14 @@
     
     </summary>
     
-      <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
-      <category term="cmd" scheme="http://yoursite.com/tags/cmd/"/>
+      <category term="cmd" scheme="https://anyer.github.io/tags/cmd/"/>
     
-      <category term="快捷方式" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"/>
+      <category term="快捷方式" scheme="https://anyer.github.io/tags/%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"/>
     
   </entry>
   
