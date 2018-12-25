@@ -3,7 +3,7 @@
   <title>Alex.D&#39;s Bolg</title>
   
   <subtitle>Don&#39;t trouble trouble until trouble troubles you.</subtitle>
-  <link href="/rss.xml" rel="self"/>
+  <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="https://anyer.github.io/"/>
   <updated>2018-12-12T08:41:27.425Z</updated>
@@ -385,15 +385,15 @@
   </entry>
   
   <entry>
-    <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="https://anyer.github.io/posts/96d3be06/"/>
-    <id>https://anyer.github.io/posts/96d3be06/</id>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="https://anyer.github.io/posts/c9ff6b6b/"/>
+    <id>https://anyer.github.io/posts/c9ff6b6b/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
     
     </summary>
     
@@ -411,15 +411,15 @@
   </entry>
   
   <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="https://anyer.github.io/posts/c9ff6b6b/"/>
-    <id>https://anyer.github.io/posts/c9ff6b6b/</id>
+    <title>C#静态调用带有SoapHeader验证的WebService</title>
+    <link href="https://anyer.github.io/posts/96d3be06/"/>
+    <id>https://anyer.github.io/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
     
     </summary>
     
@@ -478,9 +478,9 @@
     
       <category term="MySQL" scheme="https://anyer.github.io/tags/MySQL/"/>
     
-      <category term="Error" scheme="https://anyer.github.io/tags/Error/"/>
-    
       <category term="MyBatis Generator" scheme="https://anyer.github.io/tags/MyBatis-Generator/"/>
+    
+      <category term="Error" scheme="https://anyer.github.io/tags/Error/"/>
     
   </entry>
   
