@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://anyer.github.io
 root: /alex.d-blog/
 permalink: posts/:abbrlink/
 permalink_defaults:
@@ -45,7 +45,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -54,7 +54,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -81,11 +81,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   # repo: https://gitee.com/alex_d/Alex.D-Blog.git,master
   repo: git@github.com:anyer/alex.d-blog.git,master
-
-
+  # other deployer
+- type: leancloud_counter_security_sync
 
 # abbrlink config
 abbrlink:
@@ -126,3 +126,32 @@ symbols_count_time:
   time: true
   total_symbols: true
   total_time: true
+
+# leancloud 安全漏洞处理 (执行命令 hexo lc-counter register <<username>> <<password>>)
+leancloud_counter_security:
+  enable_sync: true
+  app_id: bMq5EYdO7g53KqEdWTWkVm7I-gzGzoHsz
+  app_key: BVg4Pry8PJsDq6i9g8Iydm5M
+  username: Alex
+  password: Alex@123456
+
+# hexo-neat 压缩静态资源
+neat_enable: true # 启用neat
+
+# 对html优化
+neat_html:
+  enable: true
+  exclude:
+# 对css优化
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+# 对js优化
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'

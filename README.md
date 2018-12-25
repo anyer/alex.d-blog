@@ -32,6 +32,9 @@ hexo server
 # 远程部署 （可缩写 hexo d）
 hexo deploy
 
+# 2018-12-25 更新部署命令(package.json中新增scripts)
+npm run push  # 等价于命令 hexo cl && hexo g && hexo d
+
 ```
 
 
