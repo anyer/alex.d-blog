@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-12T08:40:40.203Z</updated>
+  <updated>2018-12-12T08:41:27.425Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/posts/6b28b742/"/>
     <id>http://yoursite.com/posts/6b28b742/</id>
     <published>2018-12-11T12:50:31.000Z</published>
-    <updated>2018-12-12T08:40:40.203Z</updated>
+    <updated>2018-12-12T08:41:27.425Z</updated>
     
     <summary type="html">
     
@@ -88,9 +88,9 @@
       <category term="Windows小技巧" scheme="http://yoursite.com/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
-    
       <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
     
   </entry>
   
@@ -385,15 +385,15 @@
   </entry>
   
   <entry>
-    <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/96d3be06/"/>
-    <id>http://yoursite.com/posts/96d3be06/</id>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
+    <id>http://yoursite.com/posts/c9ff6b6b/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
     
     </summary>
     
@@ -411,15 +411,15 @@
   </entry>
   
   <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="http://yoursite.com/posts/c9ff6b6b/"/>
-    <id>http://yoursite.com/posts/c9ff6b6b/</id>
+    <title>C#静态调用带有SoapHeader验证的WebService</title>
+    <link href="http://yoursite.com/posts/96d3be06/"/>
+    <id>http://yoursite.com/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
     
     </summary>
     
