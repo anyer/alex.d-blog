@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="https://anyer.github.io/"/>
-  <updated>2019-01-05T15:40:21.565Z</updated>
+  <updated>2019-01-05T15:45:06.299Z</updated>
   <id>https://anyer.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://anyer.github.io/posts/20f4c570/"/>
     <id>https://anyer.github.io/posts/20f4c570/</id>
     <published>2019-01-05T13:27:30.000Z</published>
-    <updated>2019-01-05T15:40:21.565Z</updated>
+    <updated>2019-01-05T15:45:06.299Z</updated>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="https://anyer.github.io/posts/21217cc/"/>
     <id>https://anyer.github.io/posts/21217cc/</id>
     <published>2019-01-04T13:45:12.000Z</published>
-    <updated>2019-01-05T15:40:21.558Z</updated>
+    <updated>2019-01-05T15:45:06.296Z</updated>
     
     <summary type="html">
     
@@ -180,11 +180,11 @@
       <category term="Jenkins" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/Jenkins/"/>
     
     
-      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
-    
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
       <category term="Jenkins" scheme="https://anyer.github.io/tags/Jenkins/"/>
+    
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -210,9 +210,9 @@
       <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
-    
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
+    
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -242,9 +242,9 @@
       <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
-    
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
+    
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     

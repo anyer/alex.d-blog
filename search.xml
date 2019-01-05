@@ -88,9 +88,9 @@
         <category>Jenkins</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>SonarQube</tag>
         <tag>Jenkins</tag>
+        <tag>Windows</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
       </tags>
@@ -104,8 +104,8 @@
         <category>SonarQube</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>SonarQube</tag>
+        <tag>Windows</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
         <tag>SonarQube Sanner</tag>
@@ -121,8 +121,8 @@
         <category>SonarQube</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>SonarQube</tag>
+        <tag>Windows</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
       </tags>
@@ -336,9 +336,9 @@
       </categories>
       <tags>
         <tag>MySQL</tag>
+        <tag>PHP</tag>
         <tag>Windows</tag>
         <tag>Apache</tag>
-        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -374,8 +374,8 @@
       <tags>
         <tag>MySQL</tag>
         <tag>Error</tag>
-        <tag>PHP</tag>
         <tag>Windows 8.1</tag>
+        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -400,8 +400,8 @@
         <category>安装部署</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Node.js</tag>
+        <tag>Hexo</tag>
         <tag>GitHub</tag>
       </tags>
   </entry>
