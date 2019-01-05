@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[七牛云图片下载]]></title>
+    <url>%2Falex.d-blog%2Fposts%2F20f4c570%2F</url>
+    <content type="text"><![CDATA[之前博客一直使用七牛云作为图床，其提供了免费的测试域名来提供使用，现在七牛云开始停止免费域名的提供，必须绑定新的域名才能继续使用，自己的域名过期一直没续费也不能用了，无奈下，更换新的图床。本文记录下使用七牛云工具 qshell 实现图片批量下载的处理方法。方法原创参看此处 。qshell 下载七牛云图片qshell 工具的 qdownload 命令可以实现图片的批量下载，此时如果域名还没有过期，则可以参考官方说明文档来下载图片。如果空间已经过期，则可以尝试绑定一个备案的域名来进行下载。最后如果没有域名可以尝试，则可以考虑下面方法，复制原空间图片到新建的空间（会有免费30天测试域名可以使用）内，然后实现图片的下载。关于 qshell 的更多说明和使用方法可以看这里。qshell 下载下载 qshell 工具，解压到任意目录后，命令行进入解压后的目录（目录内快捷打开cmd的方法可以看这里），选择对应系统版本的软件（我使用的是Windows10 64位系统，所以使用 qshell_windows_x64.exe）。命令行输入 qshell_windows_x64.exe -v 可以测试工具是否可以正常使用。授权（秘钥）确定 qshell 可以正常使用后，使用下面命令进行授权1qshell account [&lt;AccessKey&gt; &lt;SecretKey&gt; &lt;Name&gt;] [flags]其中密钥 AccessKey 和 SecretKey 可以在七牛云管理后台获取，name 为账号名称（可以任意起。。），最后 flags 可以不用理会。命令执行完成后，可以输入命令 qshell_windows_x64.exe account 查看授权的账号信息，类似下图：​ 原空间文件名获取列举原空间文件名称并保存到 imglist.txt 文件内1qshell listbucket 原空间名 -o imglist.txt获取的文件内存储内容大致如下：可以看到获取的列表信息内容比较多，而我们只需要第一列，所以需要处理这个文件，可以手动或使用下面的命令进行处理。由于cmd不支持下面命令，建议 Windows 系统用户，尝试使用 cmder 来处理1cat imglist.txt | awk '&#123;print $1&#125;' &gt; img-name.txt处理后 img-name.txt 的内容复制原空间文件到新空间创建新存储空间登陆七牛云控制台，选择 对象存储 - 新建存储空间，注意新建的空间选择的储存区域要与原空间的一致，否则后续复制文件时会出错。​ 复制文件1qshell batchcopy --force 原空间名 新空间名 -i img-name.txt命令执行完成后，可以在新的存储空间内看到备份过来的文件。图片下载创建下载用的配置文件在 qshell 工具目录下新建一个json文件，名称自定义，文件内保存下面内容12345&#123; "dest_dir": "下载的图片要存储的目录", "bucket": "新建的存储空间名称", "cdn_domain": "新建的存储空间提供的测试域名"&#125;执行下面命令完成图片的下载1qshell qdownload 刚创建的文件名称.json推荐阅读七牛云过期备份方法 - qshell issues七牛云到阿里OSS自动化迁移工具七牛云存储文件批量下载到本地 – qshell工具使用教程]]></content>
+      <categories>
+        <category>问题处理</category>
+      </categories>
+      <tags>
+        <tag>七牛云</tag>
+        <tag>图床</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Windows小技巧 -- 命令行窗口打开指定目录的资源管理器]]></title>
+    <url>%2Falex.d-blog%2Fposts%2F21217cc%2F</url>
+    <content type="text"><![CDATA[Windows小技巧 – 命令行窗口打开指定目录的资源管理器在文章 Windows小技巧 – 目录内打开CMD的快捷方式 中，讲解了怎么在指定目录下快速打开命令行工具，其中一个方式就是在资源管理器的地址栏中输入 cmd，即可以快速打开当前路径的命令行窗口。类似的操作，如果想在命令行中打开指定目录的资源管理器，则可以通过本文记录的方法。方法一 explorer命令快速打开指定目录的资源管理器此处以 D:\work\workspace 目录为例，演示此功能，首先资源管理器进入这个目录，然后在地址栏输入cmd，实现目录内打开命令行窗口，如下图接下来，在命令行窗口，通过命令 mkdir test 来创建一个文件名为 test 的文件夹 （用来做后续的测试），命令行窗口中继续输入命令 cd test 进入新建的 test 文件夹。到此测试环境准备就绪。。此时如果想在资源管理器打开 test 文件夹 ，以往一般都是通过鼠标或键盘操作打开资源管理器，然后再一步步点击到该目录。快捷点的方式可能就是在地址栏输入目录路径来快速进入。而类似这样的操作，都需要手动打开资源管理，还是不够快捷。此时，可以尝试 explorer 命令，来完成命令行内快速打开当前目录的资源管理器操作。如下，演示通过此命令来进入 test 文件夹 的快捷方法。命令行窗口中，输入如下命令1explorer .命令执行后，会弹出 test 文件夹 的资源管理器窗口，如下图当然，如果你想资源管理器打开 test 文件夹上一级目录，则可以试试命令 explorer ..，想打开其他路径的资源管理器窗口，则可以试试命令 explorer &quot;目录路径（如：c，打开c盘资源管理器）&quot;方法二 start 命令快速打开指定目录的资源管理器如下，演示通过此命令来进入 test 文件夹 的快捷方法。命令行窗口中，输入如下命令1start . # 注意，此处start后未空格，紧接着为. 此处的.表示当前目录（..表示上级目录）命令执行后，会弹出 test 文件夹 的资源管理器窗口，如下图到此，看到该方式的快捷之处了吗~~当然，如果你想资源管理器打开 test 文件夹上一级目录，则可以试试命令 start ..，想打开其他路径的资源管理器窗口，则可以试试命令 start &quot;目录路径（如：c，打开c盘资源管理器）&quot;（注意如果路径中含有空格，则需要使用双引号来包裹路径，否则会命令行会报错，如 “C:\Program Files”）。start 命令小记通过上面的操作中，使用了 start 命令，而这当然只是此命令的一个小小的应用，我们可以在命令行工具下，输入命令 help start 来查看 start 命令的说明，如下图：我们可以参看说明，简单尝试下该命令的其他功能。打开系统应用打开新的命令行窗口1start仅输入此命令即可以打开一个新的命令行窗口123start "测试 - 打开新的命令行窗口" cmd.exe# 或使用下面的命令# start "测试 - 打开新的命令行窗口"输入上述命令，执行后，即可以重新打开一个名为 “测试 - 打开新的命令行窗口” 的命令行窗口，而且此窗口内路径与之前的一致。打开命令行窗口并执行命令1234start cmd /k echo "hello world# 或使用下面的命令# start cmd /c echo "hello world"# 两者区别为，前者执行完命令后，不会关闭窗口；后者执行完命令后，会直接关闭窗口。打开其他系统应用123start explorer # 打开资源管理器 或使用命令 explorerstart control # 打开控制面板 或使用命令 controlstart %windir%\system32\Taskmgr.exe # 打开任务管理器 或使用命令 %windir%\system32\Taskmgr.exe更多命令参看文章 Windows小技巧 – Win+R提高Windows使用效率 中罗列的系统应用程序命令。打开应用程序1start "" "应用完整路径" # 注意，此处start后为空格，然后是空的双引号，之后再接一个空格，最后是应用的完整路径如果要打开的应用已经添加在环境变量中，则可以直接输入应用名称来快速打开（如上述打开cmd的处理）。此处可以延伸一下，参看之前文章 Windows小技巧 – Win+R提高Windows使用效率 ，将应用程序的快捷方式放到一个目录下，然后添加目录到环境变量，来实现 Winr + R 快速打开。这里可以做类似操作，将应用的快捷方式放入一个目录后，将目录添加到环境变量，此时就可以通过命令1start "" "应用程序的快捷方式名称" # 如命令 start "" qq , 打开qq聊天软件如果想最大化窗口后最小化窗口打开某个应用，则可以尝试使用如下命令1234# 最大化窗口打开 cmdstart /MAX cmd# 最小化窗口打开 cmdstart /MIN cmd测试时发现部分软件无效。。。如有知道原因的朋友，希望可以告知~~打开浏览器并访问某个网页1start /MAX "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://www.baidu.com"此命令可以最大化窗口打开 chrome 浏览器，并访问百度首页。]]></content>
+      <categories>
+        <category>Windows小技巧</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>start</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Selenium Webdriver之Chrome浏览器操作小记]]></title>
     <url>%2Falex.d-blog%2Fposts%2F6b28b742%2F</url>
     <content type="text"><![CDATA[SeleniumSelenium 是一套跨平台的浏览器自动化测试框架（工具），支持在多种系统环境、多种浏览器环境下使用，还可以使用多种编程语言来编写测试。Selenium 有多个项目构成，形成了一个多功能的测试系统:Selenium Core：支持DHTML 的测试案例（效果类似数据驱动测试），它是Selenium IDE 和Selenium RC的引擎。Selenium Grid - 允许您在不同的计算机上并行运行不同浏览器的测试。也就是说，针对运行不同浏览器和操作系统的不同计算机同时运行多个测试。从本质上讲，Selenium-Grid支持分布式测试执行。它允许在分布式测试执行环境中运行测试。Selenium IDE - 用于开发Selenium测试用例的工具。它是一个易于使用的Chrome和Firefox扩展，通常是开发测试用例的最有效方式。它使用现有的Selenium命令为您在浏览器中记录用户操作，并使用该元素的上下文定义参数。这不仅节省了时间，而且是学习Selenium脚本语法的绝佳方式。Selenium RC (Selenium Remote Control) - 是一个客户端/服务器系统，允许您使用几乎任何编程语言和测试框架在本地或其他计算机上控制Web浏览器。Selenium WebDriver - 主要新功能是集成WebDriver API。除了解决Selenium-RC API中的一些限制之外，WebDriver还旨在提供更简单，更简洁的编程接口。Selenium-WebDriver的开发是为了更好地支持动态网页，页面元素可能会在不重新加载页面的情况下发生变化。WebDriver的目标是提供精心设计的面向对象的API，为现代高级Web应用程序测试问题提供改进的支持。注意：如出现Selenium官网访问缓慢，可以在 C:\Windows\System32\drivers\etc\hosts 文件内添加如下内容后尝试1172.217.31.243 www.seleniumhq.orgSelenium 1.0Selenium 1.0（又名，Selenium RC 或 Selenium Remote Control） 发布于2004年，基本构成如下：主要的两个组件为：Selenium RC Server - 解释并运行从测试程序传递的 Selenese 命令（Selenese 是 Selenium命令集合），并充当HTTP代理，拦截和验证在浏览器和AUT之间传递的HTTP消息。Client libraries - 提供每种编程语言和Selenium RC Server之间的接口。简化的架构图如下：Selenium 2.0Selenium 2 = WebDriver + Selenium 1Selenium 2.0发布于2011年，是Selenium 1.0与Selenium WebDriver合并而成的一款性能更佳的产品。WebDriver是一种用于自动化Web应用程序测试的工具，尤其是用于验证它们是否按预期工作。它旨在提供一个易于探索和理解的友好API，比Selenium-RC（1.0）API更易于使用，这将有助于使您的测试更易于阅读和维护。它不依赖于任何特定的测试框架，因此它可以在单元测试项目中使用。关于 Webdriver更多内容，可以查看w3c文档 2013版 2018版Selenium 2.0 具有来自 WebDriver 的清晰面向对象 API，并能以最佳的方式与浏览器进行交互，更多Selenium WebDriver的API接口操作可以查看此处。该版本中主推WebDriver，可以将其看做 Selenium RC 的替代。因为要保持向下兼容，Selenium 2.0 中并没有彻底放弃 Selenium RC。Selenium 3.0Selenium 3.0首次发布于 2016年5月，主要有如下更新：停止使用 Selenium core （放弃Selenium RC）需要更高的Java版本支持（Java 8+）不再默认支持Firefox驱动程序（Mozilla推出Gecko Driver）使用W3C新标准的WebDriver浏览器供应商自己的WebDriver实现三个版本关系大致如下：Selenium与浏览器driver为了实现Selenium对浏览器的操作，针对几款主流的浏览器，提供了对应的 driver浏览器driver地址Chrome - ChromeDrivergithub 下载地址1 下载地址2Firefox - GeckoDrivergithub 下载地址Edge - Microsoft WebDrivergithub 下载地址Safari - WebDriversource其他浏览器Driver此处下载Selenium webdriver 模拟 Chrome 浏览器操作对于 Selenium 的这里仅作简略介绍，大家可以参看官方文档或类似书籍来学习。下面通过一些小示例，简单记录在 Windows 10、Python 2.7.15、Selenium 3.14.1、Chrome 71.0.3578.80环境下，Selenium webdriver API 驱动 Chrome 浏览器操作的过程。Chrome浏览器及chromedriver版本对应要 Selenium 可以操作对应版本的浏览器，就要下载对应的 Driver ，下面为 ChromeDriver 对应的 Chrome 版本chromedriver版本支持的Chrome版本v2.44v69-71v2.43v69-71v2.42v68-70v2.41v67-69v2.40v66-68v2.39v66-68v2.38v65-67v2.37v64-66v2.36v63-65v2.35v62-64v2.34v61-63v2.33v60-62v2.32v59-61v2.31v58-60v2.30v58-60v2.29v56-58v2.28v55-57v2.27v54-56v2.26v53-55v2.25v53-55注意：Chrome 70+ 版本后出现对应小版本的chromedriver，如本文浏览器版本为 71.0.3578.80 ，则下载对应该版本的chromedriver。更多版本查看此处。Python安装SeleniumSelenium Python bindings 是Selenium WebDriver的Python绑定版本，用于Python的自动化浏览器交互操作。支持 Python 2.7 及 Python 3.4+ 版本。Python安装Selenium可以通过如下命令123pip install selenium或easy_install selenium如果使用 Anaconda 或 Miniconda ，则使用如下命令安装1conda install seleiumchromedriver 下载及配置下载对应当前 Chrome 浏览器版本的 chromedriver ，在任意目录解压后，将解压后的路径配置到环境变量中方便程序中直接引用。注意：64位浏览器下载32位driver即可。注意： 操作不同浏览器，需要下载对应浏览器版本的driver，并添加driver路径到环境变量中，否则运行代码时，会出现类似selenium.common.exceptions.WebDriverException: Message: &#39;xxxdriver&#39; executable needs to be in PATH. 的异常提示Selenium webdriver实例化及页面访问以下演示 Selenium 操控 Chrome 浏览器，打开百度页面12345678from selenium import webdriverchromedriver = "D:\ProgramData\pkgs\chromedriver"driver = webdriver.Chrome(chromedriver)# driver = webdriver.Chrome() # 设置了chromedriver的环境变量，则此行代码等效于上面两行代码driver.get("https://www.baidu.com")driver.maximize_window() # 好像没有效果。。。driver.quit()get 方法会在页面 onload 完成后显示页面，并继续执行后续代码，如页面内存在大量Ajax请求时，为了保证页面完整加载，可以考虑使用waits来等待页面加载完成。Selenium webdriver API 获取页面元素要定位一个元素，Selenium提供了下列的查找元素的方法:find_element_by_id - 查找对应id的元素find_element_by_name - 查找对应名称的元素find_element_by_xpath - 查找对应xpath的元素find_element_by_link_text - 查找对应超链接文本的元素find_element_by_partial_link_text - 查找含有超链接文本的元素find_element_by_tag_name - 查找对应标签名的元素find_element_by_class_name - 查找对应类名的元素find_element_by_css_selector - 查找对应css选择器的元素如果要获取多个相同元素（返回list列表），find_elements_by_namefind_elements_by_xpathfind_elements_by_link_textfind_elements_by_partial_link_textfind_elements_by_tag_namefind_elements_by_class_namefind_elements_by_css_selector除了上述的公共方法，还提供了两个私有方法find_elementfind_elements配合 By 类也可以用来实现上面方法的功能，By 类提供了一组支持的定位策略属性：CLASS_NAME = ‘class name’CSS_SELECTOR = ‘css selector’ID = ‘id’LINK_TEXT = ‘link text’NAME = ‘name’PARTIAL_LINK_TEXT = ‘partial link text’TAG_NAME = ‘tag name’XPATH = ‘xpath’上述方法使用参看此处 （对应Selenium WebDriver API参看此处）以下演示 selenium 查找百度首页按钮元素，边获取元素值1234567891011121314151617181920212223242526from selenium import webdriverchromedriver = "D:\ProgramData\pkgs\chromedriver"driver = webdriver.Chrome(chromedriver)# driver = webdriver.Chrome() # 设置了chromedriver的环境变量，则此行代码等效于上面两行代码driver.get("https://www.baidu.com")# 查找元素search_btn = driver.find_element_by_id('su') #获取百度首页“百度一下”按钮元素print search_btnprint search_btn.idprint search_btn.sizeprint search_btn.tag_nameprint search_btn.text# 获取元素属性值print search_btn.get_property('type')print search_btn.get_attribute('class')print search_btn.get_property('value')# 获取元素状态print search_btn.is_displayed()print search_btn.is_enabled()print search_btn.is_selected()# 获取元素css样式print search_btn.value_of_css_property('font')print search_btn.value_of_css_property('color')print search_btn.value_of_css_property('background')driver.quit()Selenium webdriver API 页面表单操作以下演示 Selenium 实现百度一下操作（用百度查找 “selenium” 相关内容）1234567891011121314151617from selenium import webdriverfrom selenium.webdriver.common.by import Bychromedriver = "D:\ProgramData\pkgs\chromedriver"driver = webdriver.Chrome(chromedriver)# driver = webdriver.Chrome() # 设置了chromedriver的环境变量，则此行代码等效于上面两行代码driver.get("https://www.baidu.com")# 获取百度首页输入框search_input = driver.find_element(By.NAME, 'wd')# 输入框内填写 “selenium”search_input.send_keys("selenium")# 获取百度首页“百度一下”按钮search_btn = driver.find_element(By.ID, 'su')# 点击按钮，实现表单提交search_btn.click()# driver.quit()获取输入框元素后，使用 send_keys() 方法模拟输入需要查找的内容，之后获取按钮元素，并触发 click() 方法模拟点击事件，以此模拟完成百度搜索功能参考阅读Selenium - 百度百科Selenium - 维基百科)Selenium Python APISelenium-Python中文文档Selenium 3.14文档Selenium 2自动化测试实战 基于Python语言 - 某东直链 | PDF]]></content>
@@ -66,9 +90,9 @@
       <tags>
         <tag>Windows</tag>
         <tag>SonarQube</tag>
+        <tag>Jenkins</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
-        <tag>Jenkins</tag>
       </tags>
   </entry>
   <entry>
@@ -82,10 +106,10 @@
       <tags>
         <tag>Windows</tag>
         <tag>SonarQube</tag>
-        <tag>SonarQube Sanner</tag>
-        <tag>Maven</tag>
         <tag>代码质量</tag>
         <tag>代码分析</tag>
+        <tag>SonarQube Sanner</tag>
+        <tag>Maven</tag>
       </tags>
   </entry>
   <entry>
@@ -350,8 +374,8 @@
       <tags>
         <tag>MySQL</tag>
         <tag>Error</tag>
-        <tag>Windows 8.1</tag>
         <tag>PHP</tag>
+        <tag>Windows 8.1</tag>
       </tags>
   </entry>
   <entry>

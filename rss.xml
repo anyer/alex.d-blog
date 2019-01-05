@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="https://anyer.github.io/"/>
-  <updated>2018-12-12T08:41:27.425Z</updated>
+  <updated>2019-01-05T15:40:21.565Z</updated>
   <id>https://anyer.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>七牛云图片下载</title>
+    <link href="https://anyer.github.io/posts/20f4c570/"/>
+    <id>https://anyer.github.io/posts/20f4c570/</id>
+    <published>2019-01-05T13:27:30.000Z</published>
+    <updated>2019-01-05T15:40:21.565Z</updated>
+    
+    <summary type="html">
+    
+      本文记录qshell工具批量下载七牛云图片的方法。
+    
+    </summary>
+    
+      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
+    
+    
+      <category term="七牛云" scheme="https://anyer.github.io/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+    
+      <category term="图床" scheme="https://anyer.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows小技巧 -- 命令行窗口打开指定目录的资源管理器</title>
+    <link href="https://anyer.github.io/posts/21217cc/"/>
+    <id>https://anyer.github.io/posts/21217cc/</id>
+    <published>2019-01-04T13:45:12.000Z</published>
+    <updated>2019-01-05T15:40:21.558Z</updated>
+    
+    <summary type="html">
+    
+      本文记录在命令行中打开指定目录的资源管理器方法。
+    
+    </summary>
+    
+      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
+    
+      <category term="start" scheme="https://anyer.github.io/tags/start/"/>
+    
+  </entry>
   
   <entry>
     <title>Selenium Webdriver之Chrome浏览器操作小记</title>
@@ -140,11 +184,11 @@
     
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
+      <category term="Jenkins" scheme="https://anyer.github.io/tags/Jenkins/"/>
+    
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
       <category term="代码分析" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
-    
-      <category term="Jenkins" scheme="https://anyer.github.io/tags/Jenkins/"/>
     
   </entry>
   
@@ -170,13 +214,13 @@
     
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
-      <category term="SonarQube Sanner" scheme="https://anyer.github.io/tags/SonarQube-Sanner/"/>
-    
-      <category term="Maven" scheme="https://anyer.github.io/tags/Maven/"/>
-    
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
       <category term="代码分析" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="SonarQube Sanner" scheme="https://anyer.github.io/tags/SonarQube-Sanner/"/>
+    
+      <category term="Maven" scheme="https://anyer.github.io/tags/Maven/"/>
     
   </entry>
   
@@ -455,56 +499,6 @@
       <category term="Windows 8.1" scheme="https://anyer.github.io/tags/Windows-8-1/"/>
     
       <category term="IIS" scheme="https://anyer.github.io/tags/IIS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MyBatis Generator 异常错误记录</title>
-    <link href="https://anyer.github.io/posts/d4a4ba8b/"/>
-    <id>https://anyer.github.io/posts/d4a4ba8b/</id>
-    <published>2016-12-26T10:27:05.000Z</published>
-    <updated>2016-12-26T10:27:05.000Z</updated>
-    
-    <summary type="html">
-    
-      本文记录MyBatis Generator插件连接MySQL数据库过程中出现的错误。
-    
-    </summary>
-    
-      <category term="问题处理" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/"/>
-    
-      <category term="自动化构建" scheme="https://anyer.github.io/categories/%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
-    
-    
-      <category term="MySQL" scheme="https://anyer.github.io/tags/MySQL/"/>
-    
-      <category term="MyBatis Generator" scheme="https://anyer.github.io/tags/MyBatis-Generator/"/>
-    
-      <category term="Error" scheme="https://anyer.github.io/tags/Error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows小技巧 -- 目录内打开CMD的快捷方式</title>
-    <link href="https://anyer.github.io/posts/c00e8cd4/"/>
-    <id>https://anyer.github.io/posts/c00e8cd4/</id>
-    <published>2016-11-10T11:27:33.000Z</published>
-    <updated>2018-06-13T10:32:03.000Z</updated>
-    
-    <summary type="html">
-    
-      本文记录Windows下目录内打开cmd命令行窗口的快捷方式。
-    
-    </summary>
-    
-      <category term="Windows小技巧" scheme="https://anyer.github.io/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
-    
-      <category term="cmd" scheme="https://anyer.github.io/tags/cmd/"/>
-    
-      <category term="快捷方式" scheme="https://anyer.github.io/tags/%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"/>
     
   </entry>
   
