@@ -6,7 +6,7 @@
   <link href="/alex.d-blog/rss.xml" rel="self"/>
   
   <link href="https://anyer.github.io/"/>
-  <updated>2019-01-05T15:45:06.299Z</updated>
+  <updated>2019-01-05T15:46:34.245Z</updated>
   <id>https://anyer.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://anyer.github.io/posts/20f4c570/"/>
     <id>https://anyer.github.io/posts/20f4c570/</id>
     <published>2019-01-05T13:27:30.000Z</published>
-    <updated>2019-01-05T15:45:06.299Z</updated>
+    <updated>2019-01-05T15:46:34.245Z</updated>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="https://anyer.github.io/posts/21217cc/"/>
     <id>https://anyer.github.io/posts/21217cc/</id>
     <published>2019-01-04T13:45:12.000Z</published>
-    <updated>2019-01-05T15:45:06.296Z</updated>
+    <updated>2019-01-05T15:46:34.240Z</updated>
     
     <summary type="html">
     
@@ -180,11 +180,11 @@
       <category term="Jenkins" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/Jenkins/"/>
     
     
+      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
+    
       <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
       <category term="Jenkins" scheme="https://anyer.github.io/tags/Jenkins/"/>
-    
-      <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -210,9 +210,9 @@
       <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
-    
       <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
+    
+      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -242,9 +242,9 @@
       <category term="SonarQube" scheme="https://anyer.github.io/categories/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/SonarQube/"/>
     
     
-      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
-    
       <category term="Windows" scheme="https://anyer.github.io/tags/Windows/"/>
+    
+      <category term="SonarQube" scheme="https://anyer.github.io/tags/SonarQube/"/>
     
       <category term="代码质量" scheme="https://anyer.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
@@ -429,15 +429,15 @@
   </entry>
   
   <entry>
-    <title>C#静态调用带有SoapHeader验证的WebService</title>
-    <link href="https://anyer.github.io/posts/96d3be06/"/>
-    <id>https://anyer.github.io/posts/96d3be06/</id>
+    <title>C#动态调用带有SoapHeader验证的WebService</title>
+    <link href="https://anyer.github.io/posts/c9ff6b6b/"/>
+    <id>https://anyer.github.io/posts/c9ff6b6b/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
+      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
     
     </summary>
     
@@ -455,15 +455,15 @@
   </entry>
   
   <entry>
-    <title>C#动态调用带有SoapHeader验证的WebService</title>
-    <link href="https://anyer.github.io/posts/c9ff6b6b/"/>
-    <id>https://anyer.github.io/posts/c9ff6b6b/</id>
+    <title>C#静态调用带有SoapHeader验证的WebService</title>
+    <link href="https://anyer.github.io/posts/96d3be06/"/>
+    <id>https://anyer.github.io/posts/96d3be06/</id>
     <published>2017-01-16T06:28:26.000Z</published>
     <updated>2017-01-16T06:28:26.000Z</updated>
     
     <summary type="html">
     
-      本文记录C#中通过反射动态的调用带有SoapHeader验证的WebServices服务。
+      本文记录带有SoapHeader验证的WebServices服务创建、部署及C#中的静态调用方法。
     
     </summary>
     
